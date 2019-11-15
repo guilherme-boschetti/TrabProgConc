@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.trabprogconc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:5:5-26:19
+12        android:allowBackup="true"
+12-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+13-->[com.android.support:support-compat:28.0.0] C:\Users\Guilherme\.gradle\caches\transforms-2\files-2.1\ccf94a4f227dfa4f17156620e28a8b98\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:12:9-16:62
+22            android:name="com.example.trabprogconc.AmbienteActivity"
+22-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:13:13-45
+23            android:label="@string/title_activity_ambiente"
+23-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:14:13-60
+24            android:screenOrientation="landscape"
+24-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:16:13-50
+25            android:theme="@style/AppTheme.NoActionBar" />
+25-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:15:13-56
+26        <activity
+26-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:17:9-25:20
+27            android:name="com.example.trabprogconc.MainActivity"
+27-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:17:19-47
+28            android:screenOrientation="portrait"
+28-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:18:13-49
+29            android:windowSoftInputMode="adjustResize" >
+29-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:19:13-55
+30            <intent-filter>
+30-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:20:13-24:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:21:17-69
+31-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:21:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:23:17-77
+33-->C:\Users\Guilherme\AndroidStudioProjects\TrabProgConc\app\src\main\AndroidManifest.xml:23:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>
