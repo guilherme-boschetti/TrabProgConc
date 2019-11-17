@@ -1,6 +1,7 @@
 # TrabProgConc
 
 Trabalho da Disciplina de Programação Concorrente.
+Aplicativo android nativo em linguagem Java.
 
 ---------------------------------------------------
 
